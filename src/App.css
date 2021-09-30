@@ -1,0 +1,29 @@
+.title {
+  color:darkcyan;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 200px;
+}
+.container h3 {
+  color:rgb(41, 125, 158);
+}
+.app {
+  background-color: rgb(208, 237, 247);
+}
+.coordinates{
+ position:sticky; 
+ left:80px; top:2px; 
+ 
+}
+
+
+
+.container {
+  position:relative;
+  top:300px;
+}
+.Logo {
+  background-image: url(./logo.png);
+}
+
