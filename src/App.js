@@ -1,39 +1,35 @@
 
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './style.css'
 import React from 'react';
-import Button from 'react-bootstrap/Button';
-import { Form } from 'react-bootstrap';
+import reactapp from './reactapp.png'
+
+
 
 
 
 function App() {
   return (
-     
-    
-    
-    <div class="container">
-      <h3> Contact me </h3>
-    <Form class="coordinates">
-  <Form.Group className="mb-3" controlId="formBasicEmail">
-    <Form.Label>Email address</Form.Label>
-    <Form.Control type="email" placeholder="Enter email" />
-    </Form.Group>
+    <div className="container">
 
-  <Form.Group className="mb-3" controlId="formBasicPassword">
-    <Form.Label>Password</Form.Label>
-    <Form.Control type="password" placeholder="Password" />
-  </Form.Group>
-  <Form.Group className="mb-3" controlId="formBasicCheckbox">
-    <Form.Check type="checkbox" label="Check me out" />
-  </Form.Group>
-  <Button variant="primary" type="submit">
-    Submit
-  </Button>
-</Form>
-</div>
-      
-    
+     <div style={{border:"solid 1px black",maxWidth:"100vw"}}/>
+
+ <h1 className="title red">Amal Ben Henia </h1>
+
+ <br />
+
+ <img src={reactapp} width="250" alt="react"/>
+
+ <br />
+
+ <img src="/reactimage.png" alt="software development" width="250" />
+
+ <br />
+
+<iframe title="react video" width="560" height="315" src="https://www.youtube.com/embed/VWadE7PMF0c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    </div>
   );
 }
 
